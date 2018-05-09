@@ -90,7 +90,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "ce3d0aef496712e28fca"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "ad263a862c761b7ffe37"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -689,7 +689,7 @@
 /******/
 /******/ 	// objects to store loaded and loading chunks
 /******/ 	var installedChunks = {
-/******/ 		3: 0
+/******/ 		4: 0
 /******/ 	};
 /******/
 /******/ 	// The require function
@@ -755,7 +755,7 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
-/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","2":"bundles/pages/_app.js","4":"bundles/pages/index.js"}[chunkId]||chunkId) + "-" + {"0":"78597b595e9ed4aa6b06","1":"9b03ff85b27d0d91c43b","2":"3fcab8123ce0e120769c","4":"cde772b913d119b62ff2"}[chunkId] + ".js";
+/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_document.js","2":"bundles/pages/_app.js","3":"bundles/pages/_error.js","5":"bundles/pages/index.js"}[chunkId]||chunkId) + "-" + {"0":"78597b595e9ed4aa6b06","1":"37ce4583e06282d3b34a","2":"a7db60500ab00585dbe1","3":"92a6ad6b17c893deefb6","5":"6fd80b09ba9fcbc5afc1"}[chunkId] + ".js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
