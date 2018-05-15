@@ -1,2 +1,5 @@
 .DS_STORE
 .git
+out
+node_modules
+*.log

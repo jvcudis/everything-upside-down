@@ -1,0 +1,17 @@
+{
+  "name": "everything-upside-down",
+  "description": "A static blog containing upside down cake recipes",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^0.1.2",
+    "next": "6.0.0-canary.6",
+    "node-sass": "^4.9.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
