@@ -1,17 +1,17 @@
 language: node_js
 node_js: 8.11.1
 cache: npm
+
 before_deploy:
 - npm install
 - npm run export
+- echo > ./out/.nojekyll 
+
 deploy:
   provider: pages
   keep-history: true
   skip-cleanup: true
-  local-dir: "./out"
+  local-dir: './out'
   github-token: ${GITHUB_TOKEN}
   on:
     branch: master
-# env:
-#   matrix:
-#     secure: R6OJ8a6sf8jgqJTHGjkwpunROsn0+HjKsHzN3scMl3OHgR711fFtqbx/IC/M1vDARp0ZyILx5VxvBgTA2EyRy5ukoUPwCKZcmOgWj3nzae8qu1M+NBkXx9sbHEGitz/ROlP+uas6iMmqXxxXp/DdeXcwgLl7SBYzf2NgCal0z8HC60pShCwwukpkCtVqm4SdLA+4rSNDip/MTwsMu9+HlFKO32LhvhfS+wv6fzgXbAwPM5HaOE01tsStkZ+pG27R+PoOOCuZrWrCozpVn+TOyXzTQES4/odNF+5bbCJ7RbsnGZF8gxDNw9/JqqD7VWCoyvs8MwmJZGLvCmddeT05C/R4QmLC1tQdyCkSJvDnwFlSnq/J41DNddfcRdJVNTObbDADNOf2JfobmYRN/t8umKzAoaZisukLs+kwF6/33jl7G50rCXeUlBgqSCW64hobav54MgR7GBfct7DNN5/CuzxwfvkyJs3MOUyipmEY3HaoBLA9KhBs3mzKeVUlAiZ4hfscJLhePl4zdNXefQK6qimnEnGYlGhQ28UByha3naUzjoJ5g00dabbfNBVKthw9wTokONbmap0CFIl1lVNInR4jAjVE/WCiWXe34Xy/3xOyVdUki53VEfNYSJCs/Tm7BsazohMQk5yAbD6zFB0hbqr0yMxlUWg4eH72qvwBms4=
