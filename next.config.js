@@ -7,6 +7,6 @@ module.exports = withSass({
       '/': { page: '/' },
       '/about': { page: '/about' }
     }
-  }
-  // assetPrefix: '.'
+  },
+  assetPrefix: '.'
 })

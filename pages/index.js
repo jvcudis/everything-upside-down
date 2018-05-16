@@ -5,7 +5,7 @@ const IndexPage = () => {
     <div>
       This should list all the cakes in small squares.
       <div className='feature-image'>
-        <img className="svg-clipped" src="/static/cakes/pineapple-feature.jpg" alt="cakes" />
+        <img className="svg-clipped" src="/everything-upside-down/static/cakes/pineapple-feature.jpg" alt="cakes" />
         <svg height="0" width="0">
               <defs>
                   <clipPath id="svgPath">
