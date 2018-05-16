@@ -127,7 +127,7 @@ var IndexPage = function IndexPage() {
   }, "This should list all the cakes in small squares.", __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
     className: "jsx-3618760934" + " " + 'feature-image'
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("img", {
-    src: "/static/cakes/pineapple-feature.jpg",
+    src: "/everything-upside-down/static/cakes/pineapple-feature.jpg",
     alt: "cakes",
     className: "jsx-3618760934" + " " + "svg-clipped"
   }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("svg", {

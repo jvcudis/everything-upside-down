@@ -1,5 +1,6 @@
 .DS_STORE
 .git
+.next
 out
 node_modules
 *.log

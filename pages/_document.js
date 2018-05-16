@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
         </body>
         <style global jsx>{`
           body {
-            background: url('/everything-upside-down/static/bg2.png') repeat-x center top/800px auto,url('/static/bg.png') repeat center top;
+            background: url('./static/bg2.png') repeat-x center top/800px auto,url('/static/bg.png') repeat center top;
           }
 
           .svg-clipped {

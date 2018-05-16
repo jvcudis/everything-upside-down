@@ -142,20 +142,20 @@ function (_Document) {
     key: "render",
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("html", {
-        className: "jsx-1835132939"
+        className: "jsx-630629131"
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Head"], null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css?family=Economica:400,700",
-        className: "jsx-1835132939"
+        className: "jsx-630629131"
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
         rel: "stylesheet",
         href: "./_next/static/style.css",
-        className: "jsx-1835132939"
+        className: "jsx-630629131"
       })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("body", {
-        className: "jsx-1835132939"
+        className: "jsx-630629131"
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], null), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["NextScript"], null)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-        styleId: "1835132939",
-        css: ["body{background:url('/static/bg2.png') repeat-x center top/800px auto,url('/static/bg.png') repeat center top;}", ".svg-clipped{-webkit-clip-path:url(#svgPath);-webkit-clip-path:url(#svgPath);clip-path:url(#svgPath);}"]
+        styleId: "630629131",
+        css: ["body{background:url('./static/bg2.png') repeat-x center top/800px auto,url('/static/bg.png') repeat center top;}", ".svg-clipped{-webkit-clip-path:url(#svgPath);-webkit-clip-path:url(#svgPath);clip-path:url(#svgPath);}"]
       }));
     }
   }]);

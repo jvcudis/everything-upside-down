@@ -3,7 +3,7 @@
   "description": "A static blog containing upside down cake recipes",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "export": "next export"
   },
