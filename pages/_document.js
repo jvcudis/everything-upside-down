@@ -14,12 +14,7 @@ export default class MyDocument extends Document {
         </body>
         <style global jsx>{`
           body {
-            background: url('./static/bg2.png') repeat-x center top/800px auto,url('/static/bg.png') repeat center top;
-          }
-
-          .svg-clipped {
-            -webkit-clip-path: url(#svgPath);
-            clip-path: url(#svgPath);
+            background: url('/static/global/bg1.png') repeat-x center;
           }
         `}
         </style>

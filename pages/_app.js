@@ -2,6 +2,7 @@ import React from 'react'
 import App, { Container } from 'next/app'
 import Head from 'next/head'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 class Layout extends React.Component {
   render () {
@@ -26,7 +27,13 @@ export default class MainApp extends App {
         <Layout>
           <Header />
           <Component {...pageProps} />
+          <Footer />
         </Layout>
+        <style jsx>{`
+          body {
+            max-width: 600px;
+          }
+        `}</style>
       </Container>
     )
   }
