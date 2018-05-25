@@ -1,0 +1,1 @@
+module.exports=__NEXT_REGISTER_PAGE("/recipes",function(){var e=webpackJsonp([2],{260:function(e,r,t){e.exports=t(261)},261:function(e,r,t){"use strict";Object.defineProperty(r,"__esModule",{value:true});var n=t(1);var a=t.n(n);var u=t(50);var c=t.n(u);var o=function e(){return a.a.createElement("div",null,"Recipes page")};r["default"]=o}},[260]);return{page:e.default}});
