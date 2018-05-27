@@ -25,13 +25,24 @@ export default class MainApp extends App {
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <Layout>
-          <Header />
-          <Component {...pageProps} />
-          <Footer />
+          <div id='wrapper'>
+            <Header />
+            <div id='content'>
+              <Component {...pageProps} />
+            </div>
+            <Footer />
+          </div>
         </Layout>
         <style jsx>{`
-          body {
-            max-width: 600px;
+          #wrapper {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+          }
+
+          #content {
+            flex: 1;
+            background: url('/static/global/bg1.png') repeat;
           }
         `}</style>
       </Container>

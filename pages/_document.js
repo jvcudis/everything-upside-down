@@ -14,7 +14,9 @@ export default class MyDocument extends Document {
         </body>
         <style global jsx>{`
           body {
-            background: url('/static/global/bg1.png') repeat-x center;
+            background-color: #FFF;
+            padding: 0;
+            margin: 0;
           }
         `}
         </style>
